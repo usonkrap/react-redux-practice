@@ -11,7 +11,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -24,8 +26,10 @@
   ],
   "devDependencies": {
     "bootstrap": "^4.1.3",
+    "gh-pages": "^2.0.1",
     "react-redux": "^6.0.0",
     "redux": "^4.0.1",
     "uuid": "^3.3.2"
-  }
+  },
+  "homepage" : "http://usonkrap.github.io/react-redux-tutorial"
 }
